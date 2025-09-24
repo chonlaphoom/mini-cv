@@ -2,4 +2,19 @@
 
 The word "mini" doesn't mean anything special. 
 
-It's just that I don't want to call it "cv" or "resume" because those words sound too formal. It's philosophically more aligned with the idea of minimalism. It keeps me sane. 
+
+To install BasicTeX on macOS
+```
+brew install --cask basictex
+```
+
+or 
+
+Go to the MacTeX website at tug.org/mactex
+
+in shell I used only "pdflatex cv.tex" to compile the file.
+
+run
+```
+chmod u+x build.sh && ./build.sh
+```
