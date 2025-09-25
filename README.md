@@ -8,13 +8,27 @@ To install BasicTeX on macOS
 brew install --cask basictex
 ```
 
-or 
+For richer feature go to the MacTeX website at tug.org/mactex
 
-Go to the MacTeX website at tug.org/mactex
+Packages
+- titlesec
+- collection-fontsrecommended
 
-in shell I used only "pdflatex cv.tex" to compile the file.
+New Commands
+- datedsection
+- datedsubsection
+- workitems
+- contact
+- longcontact
+- name
 
 run
 ```
-chmod u+x build.sh && ./build.sh
+./build.sh
 ```
+
+You might need
+```
+chmod u+x build.sh
+```
+
