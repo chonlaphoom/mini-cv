@@ -5,6 +5,10 @@
 
 % import onced package
 \RequirePackage{titlesec}
+\RequirePackage[a4paper, margin=0.5in]{geometry}
+
+\usepackage{fontspec} 
+\setmainfont{JetBrainsMono-Medium}
 
 \titleformat{\section}       % Customise the \section command 
 {\Large\scshape\raggedright} 
