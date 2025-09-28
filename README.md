@@ -1,6 +1,7 @@
 # mini cv
 
-The word "mini" doesn't mean anything special. 
+The word "mini" doesn't mean anything special I was trying create a distinguished name.
+I have created template.cls contains style and new commands. Main file is `cv.tex`.
 
 # Latex
 https://www.latex-project.org/
