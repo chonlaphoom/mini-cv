@@ -14,6 +14,11 @@ brew install --cask basictex
 
 For richer features go to the MacTeX website at tug.org/mactex
 
+# Docker
+
+soon...
+
+# Latex
 Base Class
 - article
 
