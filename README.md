@@ -3,36 +3,39 @@
 The word "mini" doesn't mean anything special. 
 
 # Latex
-Latex is a free typesetting system for technical and scientific documentation 
 https://www.latex-project.org/
 
+Use latexmk or lualatex to compile the tex file.
 
 To install BasicTeX on macOS
 ```
 brew install --cask basictex
 ```
 
-For richer feature go to the MacTeX website at tug.org/mactex
+For richer features go to the MacTeX website at tug.org/mactex
+
+Base Class
+- article
 
 Packages
 - titlesec
 - collection-fontsrecommended
+- fontspec
+- helvet
 
 New Commands
+- titleformat
 - datedsection
-- datedsubsection
-- workitems
-- contact
-- longcontact
 - name
+- lefright
+- workitems
+- leftrighttext
 
 run
 ```
-./build.sh
+make 
 ```
-
-You might need
+or
 ```
-chmod u+x build.sh
+make clean
 ```
-
