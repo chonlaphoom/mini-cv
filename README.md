@@ -27,8 +27,7 @@ Base Class
 Packages
 - titlesec
 - collection-fontsrecommended
-- fontspec
-- helvet
+- fontspec (Calibri, Calibri Bold)
 
 New Commands
 - titleformat
