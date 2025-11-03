@@ -38,7 +38,7 @@
 }
 
 \newcommand{\subsectionLarge}[2]{%
-	\indent{\large\bfseries #1 \hfill #2}%
+	\noindent{\large\bfseries #1 \hfill #2}%
 }
 \newcommand{\content}[1]{%
 	{\normalsize #1}%
