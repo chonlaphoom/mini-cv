@@ -31,27 +31,18 @@
     \noindent #1 \hfill #2 \par 
 }
 
-% \newcommand{\contact}[5]{%
-%     \centerline{%
-%         \makebox[0pt][c]{%
-%             #1 {\large\textperiodcentered} #2 {\large\textperiodcentered} #3
-%             \ #4 \ \ #5%
-%         }%
-%     }%
-% }
-%
-% \newcommand{\longcontact}[5]{%
-%     \noindent
-%     #1\hfill {\large\textperiodcentered}\hfill #2\hfill
-%     {\large\textperiodcentered}\hfill #3\\
-%     #4\hfill #5%
-% }
-
 \newcommand{\datedsection}[2]{%
   \section[#1]{#1 \hfill #2}%
 }
 \newcommand{\datedsubsection}[2]{%
-  \subsection[#1]{#1 \hfill #2}%
+  \subsection[#1]{\indent#1 \hfill #2}%
+}
+
+\newcommand{\subsectionLarge}[2]{%
+	\indent{\large\bfseries #1 \hfill #2}%
+}
+\newcommand{\content}[1]{%
+	{\normalsize #1}%
 }
 
 \newcommand{\workitems}[3]{%

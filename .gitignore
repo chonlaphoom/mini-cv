@@ -2,3 +2,4 @@
 *.log
 *.pdf
 rcv.tex
+.DS_Store
