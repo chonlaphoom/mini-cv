@@ -8,8 +8,7 @@
 \RequirePackage[a4paper, margin=0.5in]{geometry}
 
 \usepackage{fontspec} 
-\usepackage{helvet} 
-\setmainfont{JetBrainsMono-Medium}
+\setmainfont{Calibri}
 
 \titleformat{\section}
 {\Large\scshape\raggedright} 
