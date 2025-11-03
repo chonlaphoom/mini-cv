@@ -6,7 +6,7 @@ SOURCE	=	cv.tex
 build:	
 	@echo	"Starting	LaTeX	build	for $(SOURCE)..."
 	@echo	"======================="
-	/Library/TeX/texbin/lualatex -halt-on-error -jobname=cv $(SOURCE)
+	lualatex -halt-on-error -jobname=cv $(SOURCE)
 	@echo "Finished building $(TARGET)."
 	@echo	"======================="
 
