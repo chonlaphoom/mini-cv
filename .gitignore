@@ -1,4 +1,6 @@
 *.aux
 *.log
+*.pdf
+!preview/*.pdf
 rcv.tex
 .DS_Store
