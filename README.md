@@ -13,7 +13,7 @@ This repository provides a LaTeX template for creating a concise curriculum vita
 - **Base Class:** Uses the standard `article` class.
 - **Packages:**
   - `titlesec`
-  - `collection-fontsrecommended`
+  - `etoolbox`
   - `fontspec` (recommended fonts: Calibri, Calibri Bold)
 
 ## New Commands (from `template.cls`)
