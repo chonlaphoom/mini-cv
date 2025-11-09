@@ -7,7 +7,8 @@
 \RequirePackage{titlesec}
 \RequirePackage[a4paper, margin=0.5in]{geometry}
 
-\usepackage{fontspec} 
+\usepackage{fontspec}
+\usepackage{etoolbox}
 \setmainfont{Calibri}
 
 \titleformat{\section}
@@ -43,11 +44,9 @@
 \newcommand{\content}[1]{%
 	{\normalsize #1}%
 }
-
-\newcommand{\workitems}[3]{%
+\newcommand{\processworkitem}[1]{\item #1}
+\newcommand{\workitems}[1]{%
     \begin{itemize}
-    \item #1
-    \item #2
-    \item #3
+        \forcsvlist{\processworkitem}{#1}
     \end{itemize}%
 }
