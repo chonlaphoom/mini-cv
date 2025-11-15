@@ -9,6 +9,7 @@
 
 \usepackage{fontspec}
 \usepackage{etoolbox}
+\usepackage{xparse}
 \setmainfont{Calibri}
 
 \titleformat{\section}
@@ -41,6 +42,7 @@
 \newcommand{\subsectionLarge}[2]{%
 	\noindent{\large\bfseries #1 \hfill #2}%
 }
+
 \newcommand{\content}[1]{%
 	{\normalsize #1}%
 }
@@ -50,3 +52,17 @@
         \forcsvlist{\processworkitem}{#1}
     \end{itemize}%
 }
+
+\newcommand{\newlinesize}[1]{%
+    \ifstrequal{#1}{sm}{%
+			\\
+    }{%
+    \ifstrequal{#1}{md}{%
+			\\
+			\\
+			}{%
+       \textbf{ERROR: Please use 1 or 0.5}%
+    }%
+	}%
+}
+
