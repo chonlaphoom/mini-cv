@@ -25,7 +25,7 @@
 
 \newcommand{\name}[1]{%
 	\leftline{\fontfamily{phv}\selectfont\textbf{\Huge #1}}%
-	\vspace{3mm}
+	\vspace{2mm}
 }
 
 \newcommand{\leftrighttext}[2]{%
@@ -40,13 +40,13 @@
 }
 
 \newcommand{\subsectionLarge}[2]{%
-	\noindent{\large\bfseries #1 \hfill #2}%
+	\noindent{\large\bfseries #1 \hfill #2 \vspace{-0.2cm}}%
 }
 
 \newcommand{\content}[1]{%
 	{\normalsize #1}%
 }
-\newcommand{\processworkitem}[1]{\item #1}
+\newcommand{\processworkitem}[1]{\item #1\vspace{-0.2cm}}
 \newcommand{\workitems}[1]{%
     \begin{itemize}
         \forcsvlist{\processworkitem}{#1}
