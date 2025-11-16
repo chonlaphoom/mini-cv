@@ -13,7 +13,7 @@
 \setmainfont{Calibri}
 
 \titleformat{\section}
-{\Large\scshape\raggedright} 
+{\Large\scshape\raggedright\vspace{-0.5em}} 
 {}{0em}            
 {}                 
 [\titlerule]       
@@ -25,7 +25,7 @@
 
 \newcommand{\name}[1]{%
 	\leftline{\fontfamily{phv}\selectfont\textbf{\Huge #1}}%
-	\vspace{2mm}
+	\vspace{0.5em}
 }
 
 \newcommand{\leftrighttext}[2]{%
@@ -40,13 +40,13 @@
 }
 
 \newcommand{\subsectionLarge}[2]{%
-	\noindent{\large\bfseries #1 \hfill #2 \vspace{-0.2cm}}%
+	\noindent{\large\bfseries #1 \hfill #2 \vspace{-0.5em}}%
 }
 
 \newcommand{\content}[1]{%
 	{\normalsize #1}%
 }
-\newcommand{\processworkitem}[1]{\item #1\vspace{-0.2cm}}
+\newcommand{\processworkitem}[1]{\item #1\vspace{-0.5em}}
 \newcommand{\workitems}[1]{%
     \begin{itemize}
         \forcsvlist{\processworkitem}{#1}
