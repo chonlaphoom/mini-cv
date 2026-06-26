@@ -46,10 +46,6 @@ brew install --cask basictex
 
 For a complete distribution and richer features, visit [MacTeX](https://tug.org/mactex).
 
-## Docker
-
-Docker setup is planned. Stay tuned for updates.
-
 ## Makefile Usage
 
 A `Makefile` is provided for automation:
